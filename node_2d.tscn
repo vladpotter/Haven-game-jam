@@ -10,7 +10,7 @@ radius = 210.34258
 [node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=856839422]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D" unique_id=1877278950]
-position = Vector2(-18, 39)
+position = Vector2(-14, 45)
 shape = SubResource("CircleShape2D_8q1g1")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=494902081]
