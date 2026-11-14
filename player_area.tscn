@@ -9,7 +9,7 @@
 [node name="Eugene" parent="." unique_id=1448601214 instance=ExtResource("1_0v62v")]
 position = Vector2(259, 447)
 
-[node name="NewPiskel" parent="." unique_id=1192373039 instance=ExtResource("2_66asn")]
+[node name="tramp" parent="." unique_id=1192373039 instance=ExtResource("2_66asn")]
 position = Vector2(642, 410)
 scale = Vector2(8.5, 5.84375)
 script = ExtResource("3_e2cmi")

@@ -1,19 +1,18 @@
 [gd_scene format=3 uid="uid://ds11n4lxasxoh"]
 
-[ext_resource type="Texture2D" uid="uid://dgw10a3gm638p" path="res://New Piskel.png" id="1_inx8s"]
+[ext_resource type="Texture2D" uid="uid://v2vb0yjqxcot" path="res://New Piskel-1.png.png" id="1_inx8s"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rx6v1"]
-size = Vector2(26.349834, 10.461539)
+size = Vector2(524.48785, 198.10342)
 
-[node name="NewPiskel" type="Sprite2D" unique_id=1192373039]
-position = Vector2(514, 313.00006)
-scale = Vector2(18.9375, 13)
+[node name="NewPiskel1_png" type="Sprite2D" unique_id=657140848]
+position = Vector2(623, 337)
+scale = Vector2(0.640625, 0.725)
 texture = ExtResource("1_inx8s")
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1434266250]
+[node name="Area2D" type="Area2D" parent="." unique_id=765341614]
 
-[node name="Area2D" type="Area2D" parent="Sprite2D" unique_id=333424008]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D/Area2D" unique_id=1161652763]
-position = Vector2(0.13201332, 10.923071)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=631289633]
+position = Vector2(-4.6829224, 220.94827)
+scale = Vector2(0.9999999, 0.9999999)
 shape = SubResource("RectangleShape2D_rx6v1")
