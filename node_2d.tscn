@@ -1,5 +1,18 @@
 [gd_scene format=3 uid="uid://4pqund3nukl7"]
 
-[node name="Node2D" type="Node2D" unique_id=946809586]
+[ext_resource type="Texture2D" uid="uid://d04joktryrrcw" path="res://Screenshot_2026-11-14_at_10.44.26_AM-removebg-preview.png" id="1_wtcfe"]
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=66402618]
+[sub_resource type="CircleShape2D" id="CircleShape2D_8q1g1"]
+radius = 210.34258
+
+[node name="Eugene" type="Node2D" unique_id=1448601214]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=856839422]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D" unique_id=1877278950]
+position = Vector2(-18, 39)
+shape = SubResource("CircleShape2D_8q1g1")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=494902081]
+position = Vector2(0, 1)
+texture = ExtResource("1_wtcfe")
