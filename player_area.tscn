@@ -2,14 +2,20 @@
 
 [ext_resource type="PackedScene" uid="uid://b53us4x8e6opa" path="res://eugene.tscn" id="1_0v62v"]
 [ext_resource type="PackedScene" uid="uid://ds11n4lxasxoh" path="res://tramp.tscn" id="2_66asn"]
-[ext_resource type="Script" uid="uid://tjk8n1eagufi" path="res://tramp.gd" id="3_e2cmi"]
+[ext_resource type="PackedScene" uid="uid://cl5eaekxll7ek" path="res://tree.tscn" id="3_e2cmi"]
 
 [node name="Player area" type="Node2D" unique_id=1403536639]
 
 [node name="Eugene" parent="." unique_id=1448601214 instance=ExtResource("1_0v62v")]
-position = Vector2(259, 447)
+position = Vector2(290, 608)
 
-[node name="tramp" parent="." unique_id=1192373039 instance=ExtResource("2_66asn")]
-position = Vector2(642, 410)
-scale = Vector2(8.5, 5.84375)
-script = ExtResource("3_e2cmi")
+[node name="Camera2D" type="Camera2D" parent="Eugene" unique_id=783353367]
+position = Vector2(-14, 6)
+
+[node name="NewPiskel1_png" parent="." unique_id=657140848 instance=ExtResource("2_66asn")]
+position = Vector2(626, 531)
+scale = Vector2(0.41875002, 0.37500018)
+
+[node name="NewPiskel(1)" parent="." unique_id=594434060 instance=ExtResource("3_e2cmi")]
+position = Vector2(39, 473)
+scale = Vector2(0.5765625, 0.5484376)

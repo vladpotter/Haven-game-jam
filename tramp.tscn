@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://ds11n4lxasxoh"]
 
 [ext_resource type="Texture2D" uid="uid://v2vb0yjqxcot" path="res://New Piskel-1.png.png" id="1_inx8s"]
+[ext_resource type="Script" uid="uid://tjk8n1eagufi" path="res://tramp.gd" id="2_pxatb"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rx6v1"]
 size = Vector2(524.48785, 198.10342)
@@ -9,6 +10,7 @@ size = Vector2(524.48785, 198.10342)
 position = Vector2(623, 337)
 scale = Vector2(0.640625, 0.725)
 texture = ExtResource("1_inx8s")
+script = ExtResource("2_pxatb")
 
 [node name="Area2D" type="Area2D" parent="." unique_id=765341614]
 
