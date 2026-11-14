@@ -4,7 +4,11 @@
 [ext_resource type="PackedScene" uid="uid://ds11n4lxasxoh" path="res://tramp.tscn" id="2_66asn"]
 [ext_resource type="PackedScene" uid="uid://cl5eaekxll7ek" path="res://tree.tscn" id="3_e2cmi"]
 
-[node name="Player area" type="Node2D" unique_id=1403536639]
+[node name="StaticBody2D" type="StaticBody2D" unique_id=1988620565]
+
+[node name="tramp" parent="." unique_id=1192373039 instance=ExtResource("2_66asn")]
+position = Vector2(590, 440)
+scale = Vector2(0.6679689, 0.42791754)
 
 [node name="Eugene" parent="." unique_id=1448601214 instance=ExtResource("1_0v62v")]
 position = Vector2(290, 608)

@@ -4,17 +4,18 @@
 [ext_resource type="Script" uid="uid://tjk8n1eagufi" path="res://tramp.gd" id="2_pxatb"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rx6v1"]
-size = Vector2(524.48785, 198.10342)
+size = Vector2(340.0005, 149.99997)
 
-[node name="NewPiskel1_png" type="Sprite2D" unique_id=657140848]
-position = Vector2(623, 337)
-scale = Vector2(0.640625, 0.725)
+[node name="tramp area" type="Area2D" unique_id=765341614]
+scale = Vector2(0.99999994, 0.99999994)
+
+[node name="Tramp" type="Sprite2D" parent="." unique_id=657140848]
+position = Vector2(-6.1035156e-05, -149.99997)
+scale = Vector2(0.64062494, 0.72499996)
 texture = ExtResource("1_inx8s")
 script = ExtResource("2_pxatb")
 
-[node name="Area2D" type="Area2D" parent="." unique_id=765341614]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=631289633]
-position = Vector2(-4.6829224, 220.94827)
-scale = Vector2(0.9999999, 0.9999999)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=631289633]
+position = Vector2(-2.999939, 4.0000305)
+scale = Vector2(0.9999996, 0.9999996)
 shape = SubResource("RectangleShape2D_rx6v1")
