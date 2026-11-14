@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://b53us4x8e6opa"]
+
+[ext_resource type="Script" uid="uid://bss4mgihbqfdc" path="res://character_body_2d.gd" id="1_syuap"]
+[ext_resource type="Texture2D" uid="uid://d04joktryrrcw" path="res://Screenshot_2026-11-14_at_10.44.26_AM-removebg-preview.png" id="2_ikxdf"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_8q1g1"]
+radius = 39.012817
+
+[node name="Eugene" type="CharacterBody2D" unique_id=856839422]
+script = ExtResource("1_syuap")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1877278950]
+position = Vector2(-2, -5)
+shape = SubResource("CircleShape2D_8q1g1")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=494902081]
+position = Vector2(1.0000038, -13.738993)
+scale = Vector2(0.18826373, 0.19234863)
+texture = ExtResource("2_ikxdf")
