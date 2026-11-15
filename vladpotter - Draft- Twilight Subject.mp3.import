@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c1r6qkvl2ssjk"
+path="res://.godot/imported/vladpotter - Draft- Twilight Subject.mp3-593ff7b09897f6118597e35ff7c8dcc9.mp3str"
+
+[deps]
+
+source_file="res://vladpotter - Draft- Twilight Subject.mp3"
+dest_files=["res://.godot/imported/vladpotter - Draft- Twilight Subject.mp3-593ff7b09897f6118597e35ff7c8dcc9.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://dlp8pik1klbi"]
+
+[ext_resource type="AudioStream" uid="uid://c1r6qkvl2ssjk" path="res://vladpotter - Draft- Twilight Subject.mp3" id="1_g84o6"]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" unique_id=2136243153]
+stream = ExtResource("1_g84o6")
+autoplay = true
