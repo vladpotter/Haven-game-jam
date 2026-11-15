@@ -3,13 +3,13 @@
 [ext_resource type="Script" uid="uid://cgdkvq0lnssw3" path="res://winner.gd" id="1_ajgwe"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rx6v1"]
-size = Vector2(1603, 698)
+size = Vector2(1286, 704)
 
-[node name="Area2D" type="Area2D" unique_id=924624290]
+[node name="Area2D2" type="Area2D" unique_id=924624290]
 script = ExtResource("1_ajgwe")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1948212609]
-position = Vector2(791.5, 339)
+position = Vector2(9453, -2522)
 shape = SubResource("RectangleShape2D_rx6v1")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]

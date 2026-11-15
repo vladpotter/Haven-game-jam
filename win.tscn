@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://b32jt68pjpedn"]
+
+[ext_resource type="Script" uid="uid://d0d0vmkjbqmpq" path="res://label.gd" id="1_wao2c"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_8q1g1"]
+font_size = 134
+
+[node name="Label" type="Label" unique_id=1909868058]
+offset_left = 9174.0
+offset_top = -2743.0
+offset_right = 9765.0
+offset_bottom = -2559.0
+text = "You Win"
+label_settings = SubResource("LabelSettings_8q1g1")
+uppercase = true
+script = ExtResource("1_wao2c")
