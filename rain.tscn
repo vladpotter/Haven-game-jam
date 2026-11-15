@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://bin648v8uofu5"]
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_gd78m"]
+particle_flag_disable_z = true
+emission_shape = 3
+emission_box_extents = Vector3(3500, 6.22, 1)
+gravity = Vector3(5.76, 1000, 0)
+
+[node name="GPUParticles2D" type="GPUParticles2D" unique_id=1327063969]
+position = Vector2(362, -10)
+amount = 10000
+process_material = SubResource("ParticleProcessMaterial_gd78m")
