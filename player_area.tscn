@@ -2,14 +2,39 @@
 
 [ext_resource type="PackedScene" uid="uid://b53us4x8e6opa" path="res://eugene.tscn" id="1_0v62v"]
 [ext_resource type="PackedScene" uid="uid://bylp2tvf6hcn4" path="res://floor.tscn" id="1_iguh4"]
+[ext_resource type="Texture2D" uid="uid://b333ugx0m5rqr" path="res://New Piskel-1.png (4).png" id="1_lgtc1"]
 [ext_resource type="PackedScene" uid="uid://ds11n4lxasxoh" path="res://tramp.tscn" id="2_66asn"]
+[ext_resource type="Texture2D" uid="uid://c1ti5s1fe1qot" path="res://New Piskel-2.png (1).png" id="2_kmf5b"]
 [ext_resource type="PackedScene" uid="uid://cl5eaekxll7ek" path="res://tree.tscn" id="3_e2cmi"]
+[ext_resource type="Texture2D" uid="uid://bfjugu08os27q" path="res://New Piskel-2.png.png" id="3_feb2n"]
 
 [node name="StaticBody2D" type="StaticBody2D" unique_id=1988620565]
 
+[node name="NewPiskel1_png(4)" type="Sprite2D" parent="." unique_id=2137350152]
+position = Vector2(2853.498, -15867)
+scale = Vector2(88.73282, 51.696877)
+texture = ExtResource("1_lgtc1")
+
+[node name="NewPiskel2_png(1)" type="Sprite2D" parent="NewPiskel1_png(4)" unique_id=167174631]
+position = Vector2(-939, -2219)
+texture = ExtResource("2_kmf5b")
+
+[node name="NewPiskel2_png(1)2" type="Sprite2D" parent="NewPiskel1_png(4)" unique_id=1807626541]
+position = Vector2(-23.435501, 298.1418)
+scale = Vector2(0.015013912, 0.015013912)
+texture = ExtResource("2_kmf5b")
+
+[node name="NewPiskel2_png" type="Sprite2D" parent="NewPiskel1_png(4)" unique_id=1244600542]
+position = Vector2(-35.392746, 300.1342)
+scale = Vector2(0.017188653, 0.017188653)
+texture = ExtResource("3_feb2n")
+
+[node name="NewPiskel2_png(1)" type="Sprite2D" parent="." unique_id=1754027968]
+position = Vector2(232, -578)
+texture = ExtResource("2_kmf5b")
+
 [node name="tramp area" parent="." unique_id=765341614 node_paths=PackedStringArray("eugene") instance=ExtResource("2_66asn")]
 position = Vector2(382, 657)
-scale = Vector2(0.54, 0.54)
 eugene = NodePath("../Eugene")
 
 [node name="Eugene" parent="." unique_id=1448601214 instance=ExtResource("1_0v62v")]
@@ -24,6 +49,3 @@ scale = Vector2(0.5765625, 0.5484376)
 
 [node name="Area2D" parent="." unique_id=1163681247 instance=ExtResource("1_iguh4")]
 position = Vector2(109, 703)
-
-[node name="tramp area2" parent="." unique_id=1164832792 instance=ExtResource("2_66asn")]
-position = Vector2(1388, 624)

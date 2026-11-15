@@ -7,7 +7,7 @@
 size = Vector2(156.00009, 149.00008)
 
 [node name="tramp area" type="Area2D" unique_id=765341614]
-scale = Vector2(0.99999994, 0.99999994)
+scale = Vector2(0.54, 0.54)
 script = ExtResource("2_pxatb")
 
 [node name="Tramp" type="Sprite2D" parent="." unique_id=657140848]

@@ -1,6 +1,6 @@
 extends CharacterBody2D
 const SPEED = 500.0
-const JUMP_VELOCITY = -1500.0
+const JUMP_VELOCITY = -1000.0
 var CAN_JUMP = false
 
 func _ready() -> void:
