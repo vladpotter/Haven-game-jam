@@ -7,6 +7,6 @@ emission_box_extents = Vector3(3500, 6.22, 1)
 gravity = Vector3(5.76, 1000, 0)
 
 [node name="GPUParticles2D" type="GPUParticles2D" unique_id=1327063969]
-position = Vector2(362, -10)
+position = Vector2(3017, -1216)
 amount = 10000
 process_material = SubResource("ParticleProcessMaterial_gd78m")
