@@ -52,12 +52,12 @@ scale = Vector2(0.0060856855, 0.010445506)
 eugene = NodePath("../../Eugene")
 
 [node name="tramp area8" parent="NewPiskel1_png(4)" unique_id=455466554 node_paths=PackedStringArray("eugene") instance=ExtResource("2_66asn")]
-position = Vector2(31.752647, 265.9348)
+position = Vector2(32.068203, 266.01224)
 scale = Vector2(0.0060856855, 0.010445506)
 eugene = NodePath("../../Eugene")
 
 [node name="tramp area9" parent="NewPiskel1_png(4)" unique_id=1086208540 node_paths=PackedStringArray("eugene") instance=ExtResource("2_66asn")]
-position = Vector2(29.690277, 274.73615)
+position = Vector2(29.712816, 276.30295)
 scale = Vector2(0.0060856855, 0.010445506)
 eugene = NodePath("../../Eugene")
 
@@ -67,7 +67,12 @@ scale = Vector2(0.015013912, 0.015013912)
 texture = ExtResource("2_kmf5b")
 
 [node name="NewPiskel2_png" type="Sprite2D" parent="NewPiskel1_png(4)" unique_id=1244600542]
-position = Vector2(-0.29862976, 274.54272)
+position = Vector2(7.5902243, 290.1336)
+scale = Vector2(0.017188653, 0.017188653)
+texture = ExtResource("3_feb2n")
+
+[node name="NewPiskel2_png2" type="Sprite2D" parent="NewPiskel1_png(4)" unique_id=111109357]
+position = Vector2(33.17264, 255.06377)
 scale = Vector2(0.017188653, 0.017188653)
 texture = ExtResource("3_feb2n")
 
