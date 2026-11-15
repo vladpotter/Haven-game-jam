@@ -77,6 +77,16 @@ position = Vector2(64.99852, 271.33163)
 scale = Vector2(0.0060856855, 0.010445506)
 eugene = NodePath("../../Eugene")
 
+[node name="tramp area13" parent="NewPiskel1_png(4)" unique_id=372958701 node_paths=PackedStringArray("eugene") instance=ExtResource("2_66asn")]
+position = Vector2(69.42754, 276.92197)
+scale = Vector2(0.0060856855, 0.010445506)
+eugene = NodePath("../../Eugene")
+
+[node name="tramp area14" parent="NewPiskel1_png(4)" unique_id=2000283795 node_paths=PackedStringArray("eugene") instance=ExtResource("2_66asn")]
+position = Vector2(84.26985, 276.99933)
+scale = Vector2(0.0060856855, 0.010445506)
+eugene = NodePath("../../Eugene")
+
 [node name="NewPiskel2_png(1)2" type="Sprite2D" parent="NewPiskel1_png(4)" unique_id=1807626541]
 position = Vector2(12.695438, 277.2121)
 scale = Vector2(0.015013912, 0.015013912)
