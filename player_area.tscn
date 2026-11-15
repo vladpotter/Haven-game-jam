@@ -19,6 +19,31 @@ texture = ExtResource("1_lgtc1")
 position = Vector2(-939, -2219)
 texture = ExtResource("2_kmf5b")
 
+[node name="tramp area2" parent="NewPiskel1_png(4)" unique_id=1228453159 node_paths=PackedStringArray("eugene") instance=ExtResource("2_66asn")]
+position = Vector2(-12.458727, 317.07916)
+scale = Vector2(0.0060856855, 0.010445506)
+eugene = NodePath("../../Eugene")
+
+[node name="tramp area4" parent="NewPiskel1_png(4)" unique_id=765341614 node_paths=PackedStringArray("eugene") instance=ExtResource("2_66asn")]
+position = Vector2(2.011679, 312.33997)
+scale = Vector2(0.0060856855, 0.010445506)
+eugene = NodePath("../../Eugene")
+
+[node name="tramp area3" parent="NewPiskel1_png(4)" unique_id=1449889487 node_paths=PackedStringArray("eugene") instance=ExtResource("2_66asn")]
+position = Vector2(1.1551758, 319.8646)
+scale = Vector2(0.0060856855, 0.010445506)
+eugene = NodePath("../../Eugene")
+
+[node name="tramp area5" parent="NewPiskel1_png(4)" unique_id=1522664715 node_paths=PackedStringArray("eugene") instance=ExtResource("2_66asn")]
+position = Vector2(2.5751648, 301.79773)
+scale = Vector2(0.0060856855, 0.010445506)
+eugene = NodePath("../../Eugene")
+
+[node name="tramp area6" parent="NewPiskel1_png(4)" unique_id=1214003475 node_paths=PackedStringArray("eugene") instance=ExtResource("2_66asn")]
+position = Vector2(20.42651, 297.01987)
+scale = Vector2(0.0060856855, 0.010445506)
+eugene = NodePath("../../Eugene")
+
 [node name="NewPiskel2_png(1)2" type="Sprite2D" parent="NewPiskel1_png(4)" unique_id=1807626541]
 position = Vector2(-23.435501, 298.1418)
 scale = Vector2(0.015013912, 0.015013912)
@@ -33,8 +58,8 @@ texture = ExtResource("3_feb2n")
 position = Vector2(232, -578)
 texture = ExtResource("2_kmf5b")
 
-[node name="tramp area" parent="." unique_id=765341614 node_paths=PackedStringArray("eugene") instance=ExtResource("2_66asn")]
-position = Vector2(382, 657)
+[node name="tramp area" parent="." unique_id=266574862 node_paths=PackedStringArray("eugene") instance=ExtResource("2_66asn")]
+position = Vector2(1139, 667)
 eugene = NodePath("../Eugene")
 
 [node name="Eugene" parent="." unique_id=1448601214 instance=ExtResource("1_0v62v")]
