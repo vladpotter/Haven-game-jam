@@ -10,6 +10,9 @@
 [ext_resource type="PackedScene" uid="uid://dlp8pik1klbi" path="res://audio_stream_player.tscn" id="5_xixng"]
 [ext_resource type="PackedScene" uid="uid://bin648v8uofu5" path="res://rain.tscn" id="9_ylv8r"]
 [ext_resource type="PackedScene" uid="uid://bgq0xrjcp5l2o" path="res://respawn_dead.tscn" id="10_ylv8r"]
+[ext_resource type="Texture2D" uid="uid://jkv83p7wud12" path="res://New Piskel-2.png (2).png" id="11_5hmue"]
+[ext_resource type="Texture2D" uid="uid://bluqx4smhjtc6" path="res://New Piskel-1.png (6).png" id="12_lvuup"]
+[ext_resource type="Script" uid="uid://dyhe15hm5ek7v" path="res://new_piskel_1_png(6).gd" id="13_7833k"]
 
 [node name="StaticBody2D" type="StaticBody2D" unique_id=1988620565]
 
@@ -125,3 +128,14 @@ position = Vector2(5033, 1173)
 
 [node name="respawn_dead2" parent="." unique_id=1693370308 instance=ExtResource("10_ylv8r")]
 position = Vector2(-4283, 1039.5)
+
+[node name="NewPiskel2_png(2)" type="Sprite2D" parent="." unique_id=915818519]
+position = Vector2(951.62506, 641.625)
+scale = Vector2(0.1832033, 0.1832033)
+texture = ExtResource("11_5hmue")
+
+[node name="NewPiskel1_png(6)" type="Sprite2D" parent="." unique_id=906475970]
+position = Vector2(3185.0002, -301)
+scale = Vector2(0.1875, 0.1875)
+texture = ExtResource("12_lvuup")
+script = ExtResource("13_7833k")
