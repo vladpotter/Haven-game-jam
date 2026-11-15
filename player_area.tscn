@@ -1046,6 +1046,9 @@ texture = ExtResource("2_7833k")
 [sub_resource type="TileSet" id="TileSet_rx6v1"]
 sources/0 = SubResource("TileSetAtlasSource_wbtet")
 
+[sub_resource type="LabelSettings" id="LabelSettings_8q1g1"]
+font_size = 108
+
 [node name="StaticBody2D" type="StaticBody2D" unique_id=1988620565]
 
 [node name="NewPiskel1_png(4)" type="Sprite2D" parent="." unique_id=2137350152]
@@ -1189,3 +1192,11 @@ script = ExtResource("13_7833k")
 
 [node name="Area2D2" parent="." unique_id=924624290 instance=ExtResource("14_lvuup")]
 position = Vector2(8928, -2161)
+
+[node name="Label" type="Label" parent="." unique_id=1672237007]
+offset_left = 9350.0
+offset_top = -1941.0
+offset_right = 9827.0
+offset_bottom = -1793.0
+text = "YOU WIN"
+label_settings = SubResource("LabelSettings_8q1g1")
