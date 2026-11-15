@@ -7,6 +7,8 @@
 [ext_resource type="Texture2D" uid="uid://c1ti5s1fe1qot" path="res://New Piskel-2.png (1).png" id="2_kmf5b"]
 [ext_resource type="PackedScene" uid="uid://cl5eaekxll7ek" path="res://tree.tscn" id="3_e2cmi"]
 [ext_resource type="Texture2D" uid="uid://bfjugu08os27q" path="res://New Piskel-2.png.png" id="3_feb2n"]
+[ext_resource type="PackedScene" uid="uid://dlp8pik1klbi" path="res://audio_stream_player.tscn" id="5_xixng"]
+[ext_resource type="PackedScene" uid="uid://bin648v8uofu5" path="res://rain.tscn" id="9_ylv8r"]
 
 [node name="StaticBody2D" type="StaticBody2D" unique_id=1988620565]
 
@@ -69,6 +71,10 @@ position = Vector2(-0.29862976, 274.54272)
 scale = Vector2(0.017188653, 0.017188653)
 texture = ExtResource("3_feb2n")
 
+[node name="AudioStreamPlayer" parent="NewPiskel1_png(4)" unique_id=2136243153 instance=ExtResource("5_xixng")]
+volume_db = -20.07
+parameters/looping = true
+
 [node name="NewPiskel2_png(1)" type="Sprite2D" parent="." unique_id=1754027968]
 position = Vector2(2292, -991)
 texture = ExtResource("2_kmf5b")
@@ -89,3 +95,6 @@ scale = Vector2(0.5765625, 0.5484376)
 
 [node name="Area2D" parent="." unique_id=1163681247 instance=ExtResource("1_iguh4")]
 position = Vector2(109, 703)
+
+[node name="GPUParticles2D" parent="." unique_id=1327063969 instance=ExtResource("9_ylv8r")]
+position = Vector2(10708, -5592)
