@@ -1,5 +1,5 @@
-extends Sprite2D
-
+extends Area2D
+@export var eugene: CharacterBody2D
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -9,3 +9,14 @@ func _ready() -> void:
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	pass
+
+
+func _on_body_entered(body: Node2D) -> void:
+	if eugene:
+		eugene.CAN_JUMP = true
+	
+
+
+func _on_body_exited(body: Node2D) -> void:
+	if eugene:
+		eugene.CAN_JUMP = false

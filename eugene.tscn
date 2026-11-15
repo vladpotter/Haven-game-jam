@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://d04joktryrrcw" path="res://Screenshot_2026-11-14_at_10.44.26_AM-removebg-preview.png" id="2_ikxdf"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_8q1g1"]
-radius = 39.012817
+radius = 41.04875
 
 [node name="Eugene" type="CharacterBody2D" unique_id=856839422]
 script = ExtResource("1_syuap")

@@ -7,11 +7,10 @@
 
 [node name="StaticBody2D" type="StaticBody2D" unique_id=1988620565]
 
-[node name="Area2D2" parent="." unique_id=819315358 instance=ExtResource("1_iguh4")]
-
-[node name="tramp" parent="." unique_id=1192373039 instance=ExtResource("2_66asn")]
-position = Vector2(507.00006, 651)
-scale = Vector2(0.6679689, 0.42791754)
+[node name="tramp area" parent="." unique_id=765341614 node_paths=PackedStringArray("eugene") instance=ExtResource("2_66asn")]
+position = Vector2(382, 657)
+scale = Vector2(0.54, 0.54)
+eugene = NodePath("../Eugene")
 
 [node name="Eugene" parent="." unique_id=1448601214 instance=ExtResource("1_0v62v")]
 position = Vector2(121, 644)
@@ -20,8 +19,11 @@ position = Vector2(121, 644)
 position = Vector2(-4, -6)
 
 [node name="NewPiskel(1)" parent="." unique_id=594434060 instance=ExtResource("3_e2cmi")]
-position = Vector2(-181, 505)
+position = Vector2(-179, 525)
 scale = Vector2(0.5765625, 0.5484376)
 
 [node name="Area2D" parent="." unique_id=1163681247 instance=ExtResource("1_iguh4")]
 position = Vector2(109, 703)
+
+[node name="tramp area2" parent="." unique_id=1164832792 instance=ExtResource("2_66asn")]
+position = Vector2(1388, 624)

@@ -3,19 +3,22 @@
 [ext_resource type="Texture2D" uid="uid://v2vb0yjqxcot" path="res://New Piskel-1.png.png" id="1_inx8s"]
 [ext_resource type="Script" uid="uid://tjk8n1eagufi" path="res://tramp.gd" id="2_pxatb"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_rx6v1"]
-size = Vector2(340.0005, 149.99997)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pxatb"]
+size = Vector2(156.00009, 149.00008)
 
 [node name="tramp area" type="Area2D" unique_id=765341614]
 scale = Vector2(0.99999994, 0.99999994)
+script = ExtResource("2_pxatb")
 
 [node name="Tramp" type="Sprite2D" parent="." unique_id=657140848]
 position = Vector2(-6.1035156e-05, -149.99997)
 scale = Vector2(0.64062494, 0.72499996)
 texture = ExtResource("1_inx8s")
-script = ExtResource("2_pxatb")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=631289633]
-position = Vector2(-2.999939, 4.0000305)
-scale = Vector2(0.9999996, 0.9999996)
-shape = SubResource("RectangleShape2D_rx6v1")
+position = Vector2(0, 8.500001)
+scale = Vector2(0.99999934, 0.99999934)
+shape = SubResource("RectangleShape2D_pxatb")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]
