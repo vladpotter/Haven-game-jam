@@ -9,6 +9,7 @@
 [ext_resource type="Texture2D" uid="uid://bfjugu08os27q" path="res://New Piskel-2.png.png" id="3_feb2n"]
 [ext_resource type="PackedScene" uid="uid://dlp8pik1klbi" path="res://audio_stream_player.tscn" id="5_xixng"]
 [ext_resource type="PackedScene" uid="uid://bin648v8uofu5" path="res://rain.tscn" id="9_ylv8r"]
+[ext_resource type="PackedScene" uid="uid://bgq0xrjcp5l2o" path="res://respawn_dead.tscn" id="10_ylv8r"]
 
 [node name="StaticBody2D" type="StaticBody2D" unique_id=1988620565]
 
@@ -57,7 +58,7 @@ scale = Vector2(0.0060856855, 0.010445506)
 eugene = NodePath("../../Eugene")
 
 [node name="tramp area9" parent="NewPiskel1_png(4)" unique_id=1086208540 node_paths=PackedStringArray("eugene") instance=ExtResource("2_66asn")]
-position = Vector2(29.690277, 274.73615)
+position = Vector2(29.724087, 275.9741)
 scale = Vector2(0.0060856855, 0.010445506)
 eugene = NodePath("../../Eugene")
 
@@ -97,4 +98,10 @@ scale = Vector2(0.5765625, 0.5484376)
 position = Vector2(109, 703)
 
 [node name="GPUParticles2D" parent="." unique_id=1327063969 instance=ExtResource("9_ylv8r")]
-position = Vector2(10708, -5592)
+position = Vector2(10230, -5457.001)
+
+[node name="respawn_dead" parent="." unique_id=1760064622 instance=ExtResource("10_ylv8r")]
+position = Vector2(5033, 1173)
+
+[node name="respawn_dead2" parent="." unique_id=1693370308 instance=ExtResource("10_ylv8r")]
+position = Vector2(-4283, 1039.5)

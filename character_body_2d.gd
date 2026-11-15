@@ -4,7 +4,7 @@ const JUMP_VELOCITY = -1000.0
 var CAN_JUMP = false
 
 func _ready() -> void:
-	pass
+	CAN_JUMP = false
 
 func _process(delta: float) -> void:
 	if Input.is_action_pressed("right"):
@@ -17,7 +17,7 @@ func _process(delta: float) -> void:
 func _on_body_entered(tramp_area: Node2D) -> void:
 	CAN_JUMP = true
 	CAN_JUMP = true
-	print('hi')
+
 
 func _physics_process(delta: float) -> void:
 	# Add the gravity.

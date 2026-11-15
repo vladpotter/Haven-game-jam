@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://bgq0xrjcp5l2o"]
+
+[ext_resource type="Script" uid="uid://b28qregltcvys" path="res://respawn_dead.gd" id="1_jqbi6"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_imjpf"]
+size = Vector2(7406, 53)
+
+[node name="Area2D" type="Area2D" unique_id=1844128222]
+script = ExtResource("1_jqbi6")
+
+[node name="respawn_dead" type="CollisionShape2D" parent="." unique_id=1760064622]
+position = Vector2(-106, 16.5)
+shape = SubResource("RectangleShape2D_imjpf")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
